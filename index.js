@@ -10,9 +10,9 @@ const app = express();
 const port = 3000;
 
 // Database Connection
-const sequelize = new Sequelize("local", "root", "root", {
+const sequelize = new Sequelize("ghl", "root", "zia@54321", {
   host: "localhost",
-  port: 10012,
+  port: 3306,
   dialect: "mysql",
 });
 // Test the connection
